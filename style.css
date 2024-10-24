@@ -228,6 +228,7 @@ section {
   justify-content: center;
   gap: 1rem;
   color: #4f772d;
+  margin-top: 15px;
 }
 
 .btn {
@@ -350,13 +351,13 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 1.5rem;
   justify-content: space-around;
 }
 
 article {
   display: flex;
-  width: 10rem;
+  width: 15rem;
   justify-content: space-around;
   gap: 0.5rem;
 }
@@ -380,6 +381,7 @@ article .icon {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
+  margin-bottom: 15px;
 }
 
 .project-title {
