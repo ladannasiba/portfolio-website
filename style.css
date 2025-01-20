@@ -207,6 +207,12 @@ section {
   text-align: center;
   color: #4f772d;
 }
+.title-2{
+  font-size: 2rem;
+  text-align: center;
+  color: #4f772d;
+  padding-top: 25px;
+}
 
 #socials-container {
   display: flex;
@@ -346,6 +352,9 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 0 20px;
+  border-radius: 2rem;
+  background-color: #f6fcf9;
 }
 
 .article-container {
@@ -411,7 +420,6 @@ article .icon {
   border-radius: 2rem;
   margin: 2rem auto;
   padding: 0.5rem;
-  /* border: 1px solid #ccc; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
