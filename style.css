@@ -33,16 +33,17 @@ nav,
   display: flex;
 }
 
-nav {
-  justify-content: space-around;
+nav, .logo {
+  justify-content: space-evenly;
   align-items: center;
   height: 17vh;
 }
 
 .nav-links {
-  gap: 2rem;
+
+  gap: 1rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 a {
@@ -58,8 +59,10 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo {
-  font-size: 2rem;
+.logo img {
+  width: 70%;
+  height: 70%;
+  margin-top: 5%;
 }
 
 .logo:hover {
@@ -205,12 +208,12 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
-  color: #4f772d;
+  color: #009933;
 }
 .title-2{
   font-size: 2rem;
   text-align: center;
-  color: #4f772d;
+  color: #009933;
   padding-top: 25px;
 }
 
@@ -234,7 +237,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  color: #4f772d;
+  color: #009933;
   margin-top: 15px;
 }
 
@@ -244,23 +247,23 @@ section {
   padding: 1rem;
   width: 8rem;
   border-radius: 1rem;
-  color: #4f772d;
+  color: #009933;
 }
 
 .btn-color-1,
 .btn-color-2 {
-  border: #4f772d 0.1rem solid;
+  border: #009933 0.1rem solid;
 }
 
 .btn-color-1:hover,
 .btn-color-2:hover {
   cursor: pointer;
-  color: #4f772d;
+  color: #009933;
 }
 
 .btn-color-1,
 .btn-color-2 {
-  background: #4f772d;
+  background: #009933;
   color: white;
 }
 
@@ -321,7 +324,7 @@ section {
   border: 1px solid #ccc;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  color: #4f772d;
+  color: #009933;
 }
 
 .section-container {
