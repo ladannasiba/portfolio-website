@@ -125,9 +125,32 @@
     text-align: justify;
   }
 
+  /* Reduce padding and margins for mobile */
+  section {
+    padding: 2rem 3% !important;
+  }
+
+  .experience-details-container {
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+
+  .about-containers {
+    gap: 1rem;
+  }
+
+  /* Ensure projects are visible */
+  #projects {
+    height: auto !important;
+    display: block !important;
+    overflow: visible !important;
+  }
+
   /* Disable scroll animations on mobile to ensure visibility */
   .hidden {
     opacity: 1 !important;
     transform: none !important;
+    transition: none !important;
+    visibility: visible !important;
   }
 }
