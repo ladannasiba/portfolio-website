@@ -580,46 +580,6 @@ footer {
   background-color: var(--bg-alt-color);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-}
-
-footer nav {
-  height: auto;
-  background: transparent;
-  box-shadow: none;
-  margin-bottom: 1rem;
-  position: static;
-}
-
-border-radius: 1.5rem;
-border: 1px solid #e5e7eb;
-box-shadow: var(--shadow-sm);
-text-align: center;
-transition: var(--transition);
-}
-
-.details-container:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow-md);
-  border-color: var(--primary-color);
-}
-
-.details-container h3 {
-  margin-bottom: 0.5rem;
-  font-size: 1.2rem;
-}
-
-.details-container p {
-  font-size: 0.9rem;
-  color: var(--secondary-color);
-}
-
-.text-container {
-  margin-top: 2rem;
-  text-align: justify;
-  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
