@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Naseebah</title>
+    <title>Naseebah | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
     <nav id="desktop-nav">
         <div class="logo">
-          <img src=".\assets\NasyGreen.png" alt="logo">
+          <img src="./assets/NasyGreen.png" alt="logo">
         </div>
         <div>
             <ul class="nav-links">
@@ -23,68 +23,60 @@
     </nav>
     <nav id="hamburger-nav">
       <div class="logo">
-        <img src=".\assets\NasyGreen.png" alt="logo">
+        <img src="./assets/NasyGreen.png" alt="logo">
       </div>
         <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
+            <div class="hamburger-icon">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
             <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>  
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>  
             </div>
         </div>
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src=".\assets\Nasiba_Picture.jpg" alt="Nasiba Profile Picture">
+            <img src="./assets/Nasiba_Picture.jpg" alt="Nasiba Profile Picture">
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Nasiba Muhammad Ladan</h1>
-            <p class="section__text__p2"><b>Software Developer, Data Scientiest, Data Analyst and An AI Engineer in Making</b>
-            </p>
-            <div>
+            <p class="section__text__p2">Software Developer, Data Scientist, Data Analyst & AI Engineer</p>
+            <div class="btn-container">
+                <button 
+                    class="btn btn-color-2"
+                    onclick="window.open('https://drive.google.com/file/d/1sG6_5WseHLBGVKnA8R-TeYSjFvV09iLx/view?usp=sharing', '_blank')">
+                    View Resume
+                </button>
                 <button 
                     class="btn btn-color-1"
                     onclick="location.href='./#contact'">
-                Contact Me
-                </button>
-                <button 
-                class="btn btn-color-1"
-                onclick="window.open('https://drive.google.com/file/d/1sG6_5WseHLBGVKnA8R-TeYSjFvV09iLx/view?usp=sharing', 
-                '_blank')">
-                View Resume
+                    Contact Me
                 </button>
             </div>
             <div id="socials-container">
-                <img src=".\assets\linkedin.png" 
+                <img src="./assets/linkedin.png" 
                 alt="My LinkedIn Profile"
                 class="icon" 
                 onclick="window.open('https://www.linkedin.com/in/nasiba-muhammad-ladan/', '_blank')"
                 />
-                <img src=".\assets\github.png" 
+                <img src="./assets/github.png" 
                 alt="My GitHub Page"
                 class="icon" 
                 onclick="window.open('https://github.com/ladannasiba', '_blank')"
                 />
-                <img src=".\assets\medium.png" 
+                <img src="./assets/medium.png" 
                 alt="Medium Articles"
                 class="icon" 
                 onclick="window.open('https://medium.com/@nasyladan72', '_blank')"
                 />
             </div>                  
         </div>
-        <!-- <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#about'"
-        /> -->
     </section>
     <section id="about">
         <p class="section__text__p1">Get To Know More</p>
@@ -121,12 +113,10 @@
               />
               <h3>Skills</h3>
               <p>SQL | Python | Excel <br />
-                Power BI | Statistical analysis | power BI 
-                | Google Cloud | Javascript | React | Django | RestAPI 
-                | Git/ Github<br />
-                DBMS (MySQL) <br />
-                Agile Methodologies | SDLC | Negotiation <br />
-                Communication and Presentation Skills
+                Power BI | Statistical Analysis <br /> 
+                Google Cloud | Javascript | React | Django | RestAPI <br />
+                Git/ Github | DBMS (MySQL) <br />
+                Agile Methodologies | SDLC
             </p>
             </div>
           </div>
@@ -163,8 +153,7 @@
                 <div>
                   <h3>Data-Driven Insights</h3>
                   <p>Transform raw data into actionable insights
-                     through advanced data analysis, helping businesses
-                      make informed decisions.</p>
+                     through advanced data analysis.</p>
                 </div>
               </article>
               <article>
@@ -172,8 +161,7 @@
                 <div>
                   <h3>Reporting & Visualization</h3>
                   <p>Design interactive dashboards and visual reports 
-                    to clearly present key metrics and trends for better
-                     business performance.</p>
+                    to clearly present key metrics.</p>
                 </div>
               </article>
               <article>
@@ -181,49 +169,43 @@
                 <div>
                   <h3>Predictive Analytics</h3>
                   <p>Utilize statistical models and machine learning
-                     techniques to forecast trends and identify opportunities 
-                     for growth and optimization.</p>
+                     techniques to forecast trends.</p>
                 </div>
               </article>
               <article>
                 <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                 <div>
-                  <h3>Business Insights & Strategy</h3>
-                  <p>Transform complex data into actionable insights, helping
-                     organizations optimize operations, improve performance, and 
-                     achieve strategic goals.</p>
+                  <h3>Business Strategy</h3>
+                  <p>Transform complex data into actionable insights to optimize operations.</p>
                 </div>
               </article>
             </div>
           </div>
 
           <div class="details-container">
-            <h2 class="experience-sub-title">Data Science/ AI Engineering</h2>
+            <h2 class="experience-sub-title">Data Science / AI</h2>
             <div class="article-container">
               <article>
                 <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                 <div>
-                  <h3>Data-Driven Insights & Solutions</h3>
+                  <h3>Insights & Solutions</h3>
                   <p>Transform complex datasets into actionable insights using 
-                    advanced statistical analysis, machine learning, and predictive modeling to drive business growth and efficiency.</p>
+                    advanced statistical analysis.</p>
                 </div>
               </article>
               <article>
                 <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                 <div>
-                  <h3>Custom AI Model Development</h3>
+                  <h3>Custom AI Models</h3>
                   <p>Design and deploy tailored AI and deep learning models for
-                     automation, natural language processing (NLP), computer vision,
-                      and decision-making systems to solve industry-specific challenges.</p>
+                     automation and NLP.</p>
                 </div>
               </article>
               <article>
                 <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                 <div>
-                  <h3>End-to-End Data Pipeline Engineering</h3>
-                  <p>Build scalable data pipelines and integrate big data technologies
-                     to streamline data collection, processing, and visualization for 
-                     real-time analytics and informed decision-making.</p>
+                  <h3>Data Pipelines</h3>
+                  <p>Build scalable data pipelines and integrate big data technologies.</p>
                 </div>
               </article>
             </div>
@@ -235,33 +217,29 @@
               <article>
                 <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                 <div>
-                  <h3>Custom Software Solutions</h3>
-                  <p>Design and develop scalable, user-friendly applications tailored 
-                    to meet unique business needs.</p>
+                  <h3>Custom Solutions</h3>
+                  <p>Design and develop scalable, user-friendly applications.</p>
                 </div>
               </article>
               <article>
                 <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                 <div>
-                  <h3>Full-Stack Development</h3>
-                  <p>Expertise in both front-end and back-end technologies 
-                    to build seamless and responsive web and mobile applications.</p>
+                  <h3>Full-Stack Dev</h3>
+                  <p>Expertise in both front-end and back-end technologies.</p>
                 </div>
               </article>
               <article>
                 <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                 <div>
-                  <h3>API Integration & Automation</h3>
-                  <p>Streamline workflows by integrating third-party services and 
-                    automating processes for maximum efficiency.</p>
+                  <h3>API Integration</h3>
+                  <p>Streamline workflows by integrating third-party services.</p>
                 </div>
               </article>
               <article>
                 <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                 <div>
-                  <h3>Cloud Solutions & Deployment</h3>
-                  <p>Implementing cloud-based architectures for optimized performance, 
-                    scalability, and security.</p>
+                  <h3>Cloud Solutions</h3>
+                  <p>Implementing cloud-based architectures for optimized performance.</p>
                 </div>
               </article>
             </div>
@@ -287,26 +265,15 @@
                 class="project-img"
               />
             </div>
-            <div>
-              <h3>Arewa Ladies4Tech Dashboard</h3>
-              <p>In this project, Data was Cleaned and transformed (ELT) using <b>Excel</b>, 
-                stored in csv format, then 
-              dashboard was created in <b>Power BI</b></p>
-            </div>
+            <h3 class="project-title">Arewa Ladies4Tech Dashboard</h3>
+            <p>Data Cleaned and transformed (ELT) using Excel, dashboard created in Power BI</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('https://gamma.app/docs/Arewa-Ladies4tech-Student-Report-Dashboard-n8bjsuj4cmydall', 
-                '_blank')"
+                onclick="window.open('https://gamma.app/docs/Arewa-Ladies4tech-Student-Report-Dashboard-n8bjsuj4cmydall', '_blank')"
               >
                 Read More
               </button>
-              <!-- <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://gamma.app/docs/Arewa-Ladies4tech-Student-Report-Dashboard-n8bjsuj4cmydall', '_blank')"
-              >
-                Live Demo
-              </button> -->
             </div>
           </div>
           <div class="details-container color-container">
@@ -317,26 +284,15 @@
                 class="project-img"
               />
             </div>
-            <div>
-              <h3>Kaduna State RMNCHN Dashboard</h3>
-              <p>In this project, Data was Cleaned and transformed (ELT) using <b>Excel</b>, 
-                stored in csv format, then 
-              dashboard was created in <b>Power BI</b></p>
-            </div>
+            <h3 class="project-title">Kaduna State RMNCHN Dashboard</h3>
+            <p>Data Cleaned and transformed (ELT) using Excel, dashboard created in Power BI</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('https://medium.com/@nasyladan72', 
-                '_blank')"
+                onclick="window.open('https://medium.com/@nasyladan72', '_blank')"
               >
                 Read More
               </button>
-              <!-- <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('#', '_blank')"
-              >
-                View Project
-              </button> -->
             </div>
           </div>
           <div class="details-container color-container">
@@ -347,28 +303,18 @@
                 class="project-img"
               />
             </div>
-            <div>
-              <h3>Maiduguri Flood Report (2024)</h3>
-              <p>In this project, Data was Cleaned and transformed (ELT) using <b>Excel</b>, 
-                stored in csv format, then 
-              dashboard was created in <b>Power BI</b></p>
-            </div>
+            <h3 class="project-title">Maiduguri Flood Report (2024)</h3>
+            <p>Data Cleaned and transformed (ELT) using Excel, dashboard created in Power BI</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('https://gamma.app/docs/The-Urgency-of-Climate-Action-p7g1pe3lhj08x6m', 
-                '_blank')"
+                onclick="window.open('https://gamma.app/docs/The-Urgency-of-Climate-Action-p7g1pe3lhj08x6m', '_blank')"
               >
                 Read More
               </button>
-              <!-- <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('#', '_blank')"
-              >
-                Live Demo
-              </button> -->
             </div>
           </div>
+        </div>
           
       <br>
       <br>
@@ -383,26 +329,15 @@
                 class="project-img"
               />
             </div>
-            <div>
-              <h3>Covid 19 daily Deceased Prediction Report</h3>
-              <p>In this project, Data was scrapped from web using <b>Python</b>, 
-                stored in csv format, cleaned and transformed, then 
-              dashboard was created in <b>Power BI</b></p>
-            </div>
+            <h3 class="project-title">Covid 19 Prediction Report</h3>
+            <p>Data scrapped using Python, cleaned, transformed, and dashboard created in Power BI</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('https://medium.com/@nasyladan72', 
-                '_blank')"
+                onclick="window.open('https://medium.com/@nasyladan72', '_blank')"
               >
                 Read More
               </button>
-              <!-- <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://medium.com/@nasyladan72', '_blank')"
-              >
-                Live Demo
-              </button> -->
             </div>
           </div>
           <div class="details-container color-container">
@@ -413,26 +348,15 @@
                 class="project-img"
               />
             </div>
-            <div>
-              <h3>Credit Card Detection Using Python</h3>
-              <p>This Project is about using <b>Python</b> libraries
-              such as; <b>pandas, requests, BeautifulSoup</b>. Web Scrapping
-            a Job Portal to enable <b>Automation</b> for job vacancies</p>
-            </div>
+            <h3 class="project-title">Credit Card Detection</h3>
+            <p>Using Python libraries (pandas, requests, BeautifulSoup) for automation.</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('https://medium.com/@nasyladan72', 
-                '_blank')"
+                onclick="window.open('https://medium.com/@nasyladan72', '_blank')"
               >
                 Read More
               </button>
-              <!-- <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/onwecdavid/python/blob/main/Myjobmag_Listings.ipynb', '_blank')"
-              >
-                View Project
-              </button> -->
             </div>
           </div>
           <div class="details-container color-container">
@@ -443,32 +367,18 @@
                 class="project-img"
               />
             </div>
-            <div>
-              <h3>Language Translation Model (LLM) Using </br>Python and OpenAI API</h3>
-              <p>In this project, I applied <b>Python</b> skills to analyze 
-                th data, using <b>Pandas</b>, <b>OpenAAI API</b>, <b>views</b>, 
-                and window functions to derive key insights on infection rates, 
-                deaths, and vaccination progress. Let’s connect to discuss 
-                how I can help transform data into actionable insights!</p>
-            </div>
+            <h3 class="project-title">Language Translation Model</h3>
+            <p>Applied Python skills to analyze data using Pandas and OpenAI API.</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('https://medium.com/@nasyladan72', 
-                '_blank')"
+                onclick="window.open('https://medium.com/@nasyladan72', '_blank')"
               >
                 Read More
               </button>
-              <!-- <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/onwecdavid/Comprehensive-Analysis-of-COVID-19-Data-Using-SQL', '_blank')"
-              >
-                Live Demo
-              </button> -->
             </div>
           </div>
-          
-          
+        </div>
      
       <div class="experience-details-container">
         <h2 class="title-2">Software Development</h2>
@@ -481,26 +391,15 @@
                 class="project-img"
               />
             </div>
-            <div>
-              <h3>Biometric Student Attendance System</h3>
-              <p>In this project, Data was scrapped from web using <b>Python</b>, 
-                stored in csv format, cleaned and transformed, then 
-              dashboard was created in <b>Power BI</b></p>
-            </div>
+            <h3 class="project-title">Biometric Attendance System</h3>
+            <p>Data scrapped using Python, cleaned, transformed, and dashboard created in Power BI</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('https://medium.com/@nasyladan72', 
-                '_blank')"
+                onclick="window.open('https://medium.com/@nasyladan72', '_blank')"
               >
                 Read More
               </button>
-              <!-- <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://medium.com/@nasyladan72', '_blank')"
-              >
-                Live Demo
-              </button> -->
             </div>
           </div>
           <div class="details-container color-container">
@@ -511,26 +410,15 @@
                 class="project-img"
               />
             </div>
-            <div>
-              <h3>Live Video Chat App</h3>
-              <p>This Project is about using <b>Python</b> libraries
-              such as; <b>pandas, requests, BeautifulSoup</b>. Web Scrapping
-            a Job Portal to enable <b>Automation</b> for job vacancies</p>
-            </div>
+            <h3 class="project-title">Live Video Chat App</h3>
+            <p>Using Python libraries (pandas, requests, BeautifulSoup) for automation.</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('https://medium.com/@nasyladan72', 
-                '_blank')"
+                onclick="window.open('https://medium.com/@nasyladan72', '_blank')"
               >
                 Read More
               </button>
-              <!-- <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/onwecdavid/python/blob/main/Myjobmag_Listings.ipynb', '_blank')"
-              >
-                View Project
-              </button> -->
             </div>
           </div>
           
@@ -542,28 +430,15 @@
                 class="project-img"
               />
             </div>
-            <div>
-              <h3>E-Health System</h3>
-              <p>In this project, I applied <b>SQL</b> skills to analyze 
-                COVID-19 data, using <b>joins</b>, <b>CTEs</b>, <b>views</b>, 
-                and window functions to derive key insights on infection rates, 
-                deaths, and vaccination progress. Let’s connect to discuss 
-                how I can help transform data into actionable insights!</p>
-            </div>
+            <h3 class="project-title">E-Health System</h3>
+            <p>Applied SQL skills to analyze COVID-19 data using joins, CTEs, and views.</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('https://medium.com/@nasyladan72', 
-                '_blank')"
+                onclick="window.open('https://medium.com/@nasyladan72', '_blank')"
               >
                 Read More
               </button>
-              <!-- <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/onwecdavid/Comprehensive-Analysis-of-COVID-19-Data-Using-SQL', '_blank')"
-              >
-                Live Demo
-              </button> -->
             </div>
           </div>
 
@@ -575,28 +450,15 @@
                 class="project-img"
               />
             </div>
-            <div>
-              <h3>E-Learning System</h3>
-              <p>In this project, I applied <b>SQL</b> skills to analyze 
-                COVID-19 data, using <b>joins</b>, <b>CTEs</b>, <b>views</b>, 
-                and window functions to derive key insights on infection rates, 
-                deaths, and vaccination progress. Let’s connect to discuss 
-                how I can help transform data into actionable insights!</p>
-            </div>
+            <h3 class="project-title">E-Learning System</h3>
+            <p>Applied SQL skills to analyze COVID-19 data using joins, CTEs, and views.</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('https://medium.com/@nasyladan72', 
-                '_blank')"
+                onclick="window.open('https://medium.com/@nasyladan72', '_blank')"
               >
                 Read More
               </button>
-              <!-- <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/onwecdavid/Comprehensive-Analysis-of-COVID-19-Data-Using-SQL', '_blank')"
-              >
-                Live Demo
-              </button> -->
             </div>
           </div>
           
@@ -608,28 +470,15 @@
                 class="project-img"
               />
             </div>
-            <div>
-              <h3>Fast Food Ordering System</h3>
-              <p>In this project, I applied <b>SQL</b> skills to analyze 
-                COVID-19 data, using <b>joins</b>, <b>CTEs</b>, <b>views</b>, 
-                and window functions to derive key insights on infection rates, 
-                deaths, and vaccination progress. Let’s connect to discuss 
-                how I can help transform data into actionable insights!</p>
-            </div>
+            <h3 class="project-title">Fast Food Ordering System</h3>
+            <p>Applied SQL skills to analyze COVID-19 data using joins, CTEs, and views.</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('https://medium.com/@nasyladan72', 
-                '_blank')"
+                onclick="window.open('https://medium.com/@nasyladan72', '_blank')"
               >
                 Read More
               </button>
-              <!-- <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/onwecdavid/Comprehensive-Analysis-of-COVID-19-Data-Using-SQL', '_blank')"
-              >
-                Live Demo
-              </button> -->
             </div>
           </div> 
           
@@ -641,28 +490,15 @@
                 class="project-img"
               />
             </div>
-            <div>
-              <h3>Hostel Allocation System</h3>
-              <p>In this project, I applied <b>SQL</b> skills to analyze 
-                COVID-19 data, using <b>joins</b>, <b>CTEs</b>, <b>views</b>, 
-                and window functions to derive key insights on infection rates, 
-                deaths, and vaccination progress. Let’s connect to discuss 
-                how I can help transform data into actionable insights!</p>
-            </div>
+            <h3 class="project-title">Hostel Allocation System</h3>
+            <p>Applied SQL skills to analyze COVID-19 data using joins, CTEs, and views.</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('https://medium.com/@nasyladan72', 
-                '_blank')"
+                onclick="window.open('https://medium.com/@nasyladan72', '_blank')"
               >
                 Read More
               </button>
-              <!-- <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/onwecdavid/Comprehensive-Analysis-of-COVID-19-Data-Using-SQL', '_blank')"
-              >
-                Live Demo
-              </button> -->
             </div>
           </div>
       <img
@@ -683,7 +519,7 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:onwecdavid@gmail.com">nasyladan72@gmail.com</a></p>
+          <p><a href="mailto:nasyladan72@gmail.com">nasyladan72@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img
