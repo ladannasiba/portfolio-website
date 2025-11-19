@@ -124,4 +124,10 @@
   .text-container {
     text-align: justify;
   }
+
+  /* Disable scroll animations on mobile to ensure visibility */
+  .hidden {
+    opacity: 1 !important;
+    transform: none !important;
+  }
 }
