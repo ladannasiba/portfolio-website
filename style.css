@@ -45,7 +45,7 @@ h4,
 h5,
 h6 {
   font-family: "Poppins", sans-serif;
-  color: var(--text-color);
+  color: var(--primary-color);
   line-height: 1.2;
 }
 
