@@ -107,10 +107,16 @@
     text-align: center;
   }
 
+  /* Profile picture - maintain circular shape */
   .section__pic-container {
-    width: auto;
-    height: 46vw;
-    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto 2rem;
+  }
+
+  .section__pic-container img {
+    border-radius: 50%;
+    border: 3px solid var(--white);
   }
 
   .section__text__p2 {
@@ -123,6 +129,13 @@
 
   .text-container {
     text-align: justify;
+  }
+
+  /* About picture - scale proportionally */
+  .about-pic {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
   }
 
   /* Reduce padding and margins for mobile */
