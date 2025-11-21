@@ -166,4 +166,14 @@
     transition: none !important;
     visibility: visible !important;
   }
+
+  /* Make cards full width on mobile */
+  .about-containers {
+    flex-direction: column;
+  }
+
+  .details-container {
+    width: 100% !important;
+    max-width: 100%;
+  }
 }
